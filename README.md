@@ -6,6 +6,7 @@ I've extracted the [Spark source](http://spark.apache.org/downloads.html) into m
 got version 1.6.1) and set up my PATH as such in my .profile:
 
 ``` export PATH=$PATH:$HOME/spark-1.6.1/bin ```
+
 ``` export SPARK_HOME=$HOME/spark-1.6.1 ```
 
 You'll also need Java. You should probably grab Scala and install it as well, even though I

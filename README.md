@@ -5,9 +5,9 @@ Playing around with Spark using pyspark.
 I've extracted the [Spark source](http://spark.apache.org/downloads.html) into my home directory (I've
 got version 1.6.1) and set up my PATH as such in my .profile:
 
-``` export PATH=$PATH:$HOME/spark-1.6.1/bin ```
-
 ``` export SPARK_HOME=$HOME/spark-1.6.1 ```
+
+``` export PATH=$PATH:$SPARK_HOME/bin ```
 
 You'll also need Java. You should probably grab Scala and install it as well, even though I
 don't plan to use it yet.
